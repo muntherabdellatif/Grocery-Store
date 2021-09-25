@@ -56,3 +56,25 @@ var swiper = new Swiper(".product-slider", {
     },
   });
 // end product
+// start review section 
+var swiper2 = new Swiper(".review-slider", {
+    loop:true,
+    spaceBetween: 20,
+    autoplay: {
+        delay : 7500,
+        disableOnInteraction:false,
+    },
+    centeredSlides:true,
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      1020: {
+        slidesPerView: 3,
+      },
+    },
+  });
+// end review section 
